@@ -1,0 +1,30 @@
+[theme]
+# Primary accent color for interactive elements
+primaryColor = "#1f77b4"
+
+# Background color for the main content area
+backgroundColor = "#ffffff"
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = "#f0f2f6"
+
+# Color used for almost all text
+textColor = "#262730"
+
+# Font family for all text in the app, except code blocks
+font = "sans serif"
+
+[server]
+# Enable serving of static files
+enableCORS = false
+enableXsrfProtection = true
+
+# Max size, in megabytes, for files uploaded with the file uploader
+maxUploadSize = 200
+
+[browser]
+# Internet address where users should point their browsers to connect to the app
+serverAddress = "localhost"
+
+# Whether to automatically open the browser when the app is run
+gatherUsageStats = false
